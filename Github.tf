@@ -9,9 +9,12 @@ terraform {
 
 # Configure the GitHub Provider
 provider "github" {
-  token = "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"
+  token = "***********************************"
 }
 resource "github_repository" "example" {
   name        = "First_Repo.tf"
   visibility = "public"
 }
+
+
+Note: To authenticate Github we have to provide token so, it is very sensitive information.
